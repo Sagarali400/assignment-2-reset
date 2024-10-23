@@ -8,6 +8,9 @@
     .navbar-list{
         display: none;
     }
+    .navbar{
+        flex-direction: column;
+    }
     #icon{
         display: block;
         color: aliceblue;
@@ -55,5 +58,37 @@
         align-items: center;
         justify-content: center;
         margin-left: 20px;
+    }
+    .chart-container{
+        flex-direction: column;
+      }
+      .trainers-section {
+        grid-template-columns: 1fr; 
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-brand,
+    .footer-column {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+    }
+
+    .footer p,
+    .footer-column ul li a {
+        font-size: 13px;
     }
 }

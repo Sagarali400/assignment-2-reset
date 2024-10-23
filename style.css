@@ -157,7 +157,7 @@ margin: 20px 20px 20px 0;
 .btn{
     color: rgb(255, 255, 255);
     background-color: rgb(230, 83, 60);
-    padding: 10px;
+    padding:12px 20px 12px 20px;
     width: 100px;
     font-weight: 700;
     font-size: 17px; 
@@ -165,3 +165,191 @@ margin: 20px 20px 20px 0;
     border: none;
     cursor: pointer;
 }
+table {
+    border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 10px;
+  }
+  th,td{
+    padding: 10px;
+  }
+  h2{
+    color: rgba(255, 255, 255, 255);
+  }
+  input{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 05px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  select{
+    padding: 10px;
+    padding-right: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .chart-container{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(34, 34, 34);
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  #input-last{
+    width: 80%;
+  }
+  .bt{
+    padding-left: 10px;
+  }
+  .meet{
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    
+  }
+  .img-team{
+    background-image: url(./images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding: 90px;
+    background-position: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    
+  }
+  .img-team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+
+.trainers-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+
+.trainer-card {
+    position: relative; 
+    background-color: #222; 
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.trainer-card img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+
+.trainer-info {
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px;
+    bottom: 20px;
+    
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.trainer-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.trainer-info p {
+    font-size: 14px;
+    color: #aaa;
+}
+.footer {
+  
+  color: #fff;
+  padding: 40px 0;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-brand {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e6533c;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #111;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #ccc;
+}
+
