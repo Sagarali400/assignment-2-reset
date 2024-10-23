@@ -1,7 +1,7 @@
 body {
   background-color: rgb(17, 17, 17);
   font-family: "Inter", sans-serif;
-  max-width: 1200px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 .tomato {
@@ -60,7 +60,8 @@ body {
   background-color: rgb(230, 83, 60);
   padding: 10px;
   border-radius: 50px;
-  font-weight: 500;
+  font-weight: 700;
+  cursor: pointer;
 }
 .text-white {
   padding: 10px;
@@ -71,6 +72,8 @@ body {
   margin-left: 10px;
   width: 100px;
   text-align: center;
+  font-weight: 700;
+  cursor: pointer;
 }
 .card {
   display: flex;
@@ -96,12 +99,69 @@ body {
   position: absolute;
   right: 50px;
 }
-.second-cmmnt{
-    background-color: rgba(255, 255, 255, 0.1);
+.second-cmmnt {
+  background-color: rgba(255, 255, 255, 0.1);
   text-align: center;
   width: 193px;
   height: 98px;
   position: absolute;
   right: 276px;
-top: 356px;
+  top: 356px;
+}
+.habits {
+  text-align: center;
+  margin-top: 200px;
+}
+.title-habit {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+h4 {
+  color: rgb(255, 255, 255);
+}
+.img-size {
+  width: 210px;
+  height: 200px;
+  border-radius: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  
+}
+.img-containers{
+    width: 281px;
+height: 344px;
+}
+.pic-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+}
+.run-container{
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+display: flex;
+justify-content: space-between;
+
+}
+.run-img{
+    
+
+border-radius: 20px;
+margin: 20px 20px 20px 0;
+
+}
+.title-contain{
+    margin-left: 20px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    padding: 10px;
+    width: 100px;
+    font-weight: 700;
+    font-size: 17px; 
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
 }

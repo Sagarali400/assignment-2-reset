@@ -39,5 +39,21 @@
     .card-container {
         width: 100%;
         padding: 10px; 
+        
+    }
+    .pic-card{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 10px;
+        text-align: center;
+        justify-items: center;
+    }
+    .run-container{
+        flex-direction: column;
+    }
+    .run-img{
+        width: 250px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
     }
 }
